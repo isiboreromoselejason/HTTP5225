@@ -14,6 +14,7 @@
 <h1> Welcome to HTTP 5225</h1>
 <p>we will learn Php in this class</p>
 <p>Things we will learn in the class</p>
+
 <?php echo
 '<ul> 
     <li>PHP</li>
@@ -21,13 +22,21 @@
     <li>Laravel</li> 
 </ul>'
 ?>
+
 <?php echo '<img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">'
  ?>   
- <img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">
+<img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">
 
  <?php
  $fname = 'Isibor';
  $lname = 'Eromosele';
+ $name['fname'] = 'Isibor';
+//$name = array ['Isibor' . 'Eromosele'];
+?>
+
+<?php 
+echo '<br>';
+echo 'Hello ' . $fname . ' ' . $lname;
 ?>
 
 </body>
