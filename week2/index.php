@@ -7,18 +7,28 @@
 </head>
 <body>
 
-<?php
+<?php echo 'Hello'; ?>
+<?php echo '<h1>Welcome to  week 2</h1>'; ?>
+<?php echo '<p>PHP\'s is fun</p>'; ?>
 
-?>
 <h1> Welcome to HTTP 5225</h1>
 <p>we will learn Php in this class</p>
 <p>Things we will learn in the class</p>
-<ul>
+<?php echo
+'<ul> 
     <li>PHP</li>
     <li>mySQL</li>
-    <li>Laravel</li>
-</ul>
-<img src="" alt="">
-    
+    <li>Laravel</li> 
+</ul>'
+?>
+<?php echo '<img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">'
+ ?>   
+ <img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">
+
+ <?php
+ $fname = 'Isibor';
+ $lname = 'Eromosele';
+?>
+
 </body>
 </html>
