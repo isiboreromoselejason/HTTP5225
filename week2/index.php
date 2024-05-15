@@ -23,9 +23,8 @@
 </ul>'
 ?>
 
-<?php echo '<img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">'
- ?>   
-<img src="https://images.wallpapersden.com/image/download/guts-berserk-the-black-swordsman_bmdrbG2UmZqaraWkpJRmZ2VlrWltZQ.jpg/600x480" alt="Placeholder image">
+<?php echo '<img src="https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Placeholder image" width="500" height="250">'
+?>   
 
  <?php
  $fname = 'Isibor';
