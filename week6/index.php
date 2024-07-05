@@ -18,8 +18,8 @@
       </div>
     </div>
   </div>
-  
-  <?php 
+
+  <?php
       include('inc/functions.php');
       $connect = mysqli_connect('localhost', 'root', 'root', 'schools');
       if(!$connect){
